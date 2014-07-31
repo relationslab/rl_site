@@ -1,0 +1,79 @@
+﻿/*
+color-table:
+#0075CC
+#015DB2
+#B5B5B6
+#000000
+*/
+
+div#recruit{
+	height: 360px;
+	color: #000000;
+}
+
+div#guideline{
+	height: 500px;
+}
+
+div#guideline_header{
+	height: 100px;
+	color: #FFFFFF;
+	background-color: #015DB2;
+}
+
+div#guideline_content{
+	height: 400px;
+	background-color: #0075CC;
+	/*background-image: url('img/rel_pic.jpg');*/
+}
+
+div#guideline_title{
+	height: 128px;
+	text-align: center;
+	padding-top: 32px;
+}
+
+div#guideline_choice{
+	height: 240px;
+}
+
+
+
+div#recruit p.head{
+	font-size: 20px;
+	line-height: 36px;
+}
+
+div#guideline_title h2{
+	color: #FFFFFF;
+	font-size: 36px;
+	line-height: 36px;
+	letter-spacing: 6px;
+}
+
+div.recruit{
+	margin-top: 0px;
+	border: 4px #FFFFFF solid;
+	padding: 24px;
+	width: 384px;
+	height: 48px;
+	color: #FFFFFF;
+	background-color: transparent;
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.recruit:hover{
+	color: #FFFFFF;
+	background-color: #015DB2;
+}
+
+div#recruit_makers{
+	float: left;
+}
+
+div#recruit_producers{
+	float: right;
+}
