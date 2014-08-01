@@ -4,6 +4,7 @@ color-table:
 #015DB2
 #B5B5B6
 #000000
+#898787
 */
 
 body{
@@ -11,6 +12,7 @@ body{
 	border: 0;
 	padding: 0;
 	padding-top: 64px;
+	color: #696767;
 	background-color: #FFFFFF;
 
 	font-family: 'Arial', 'Helvetica', 'ヒラギノ角ゴ', 'メイリオ';
@@ -103,7 +105,6 @@ div#home{
 
 div#news{
 	height: 224px;
-	color: #000000;
 }
 
 div#pic{
@@ -118,18 +119,23 @@ div#vision{
 	background-color: #015DB2;
 }
 
+div#map_of_vision{
+	height: 288px;
+	color: #FFFFFF;
+	background-color: #0075CC;
+}
+
 div#award{
 	height: 400px;
-	color: #015DB2;
-	background-image: url('img/arrow_blue.png');
+	color: #FFFFFF;
+	background-color: #0075CC;
+	background-image: url('img/arrow_white.png');
 	background-position: center top;
 }
 
 div#service{
 	height: 1760px;
-	color: #FFFFFF;
-	background-color: #0075CC;
-	background-image: url('img/arrow_white.png');
+	background-image: url('img/arrow_blue2.png');
 	background-position: center top;
 }
 
@@ -237,12 +243,28 @@ ul#menu_list a:hover{
 
 
 
+div#news p{
+	line-height: 2em;
+}
+
 div#pic_arrow{
 	margin: 0 auto;
 	width: 128px;
 	height: 32px;
 	background-image: url('img/arrow_white.png');
 	background-position: center top;
+}
+
+
+
+div#mov_left{
+	float: left;
+	width: 480px;
+}
+
+div#mov_right{
+	float: right;
+	width: 480px;
 }
 
 
@@ -281,7 +303,7 @@ div#award_scr_in{
 	position: absolute;
 	width: 1920px;
 	height: 288px;
-	background-color: #FFFFFF;
+	background-color: #0075CC;
 }
 
 div.award_content{
@@ -302,8 +324,8 @@ div.award_text{
 	padding: 12px;
 	width: 212px;
 	height: 102px;
-	color: #FFFFFF;
-	background-color: #0075CC;
+	color: #0075CC;
+	background-color: #FFFFFF;
 }
 
 p.award_title{
@@ -382,6 +404,8 @@ table#services div.detail{
 	height: 112px;
 	line-height: 1.5em;
 }
+
+
 
 table#member_table tr{
 	margin: 0;

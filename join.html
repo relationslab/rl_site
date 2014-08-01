@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+  	<meta http-equiv="Content-Style-Type" content="text/css" />
+  	<title>採用情報 | Relations, Inc.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="join.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+<div id="menu">
+<div id="menu_inner">
+	<div id="logo"></div>
+	<ul id="menu_list">
+		<li><a href="index.html#home">Home</a></li>
+		<li><a href="index.html#vision">ビジョン</a></li>
+    <li><a href="index.html#service">サービス</a></li>
+		<li><a href="index.html#award">受賞歴</a></li>
+		<li><a href="index.html#member">メンバー</a></li>
+		<li><a href="index.html#aboutus">会社概要</a></li>
+		<li class="join"><a href="join.html">参加情報</a></li>
+		<li class="recruit"><a href="recruit.html">採用情報</a></li>
+		<li class="blog">ブログ</li>
+	</ul>
+</div>
+</div>
+
+<div id="header" class="block">
+    <h2>JOIN A RELATIONS</h2>
+    <p class="head">
+      ああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+      ああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+      ああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+      ああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+    </p>
+</div>
+
+<div id="guideline">
+  <div id="guideline_header" class="block">
+      <h2>GUIDELINES / 募集要項</h2>
+  </div>
+
+  <div id="guideline_content" class="block">
+    <div id="guideline_title">
+      <h2>共に新しいことに挑戦しませんか</h2>
+    </div>
+    <div id="guideline_choice">
+    	<a href="#joinus"><div class="boxlink block">JOIN</div></a>
+    </div>
+  </div>
+</div>
+
+<div id="joinus" class="rec_bound block">
+  <div class="rec_head">
+    <h2 class="head_title">JOIN A RELATIONS</p>
+    <h3 class="head_catch">“共に新しいことに挑戦しませんか”</h3>
+    <p class="head_sentence">
+      エンジニア、デザイナー、ディレクター、などと共に創り上げたものを大きくしていきます。通常のプロデューサーと違うのは、既存事業を広める以外にもアイデアを作る段階から関わることが可能な点です。自分たちがつくったものを大きくしていくことにワクワクする方をお待ちしております。
+    </p>
+  </div>
+
+  <div class="rec_contact">
+    <div class="boxlink contact">CONTACT</div>
+  </div>
+</div>
+
+<div class="block" style="height: 64px"></div>
+
+<div id="footer" class="block">
+	Copyright(C) Relations, Inc. All Rights Reserved.
+</div>
+
+<script type="text/javascript">
+//ページ内リンク、#非表示。スムーズスクロール
+  $('a[href^=#]').click(function(){
+    var speed = 500;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top-64;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+  });
+</script>
+
+</body>
+</html>
